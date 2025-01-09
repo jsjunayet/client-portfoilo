@@ -5,6 +5,7 @@ import ProjectCard from '../projectdata/ProjectCards/ProjectCard';
 import { projectdatas } from '../projectdata/Projectdata';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Slider from 'react-slick';
+import Title from '@/Component/Utility/Title';
 
 const Project = () => {
     const slideRef = useRef()
@@ -42,7 +43,8 @@ const Project = () => {
     }
     return (
         <div className='md:ml-2 ml-0 mt-6 md:mt-20'>
-            <h5 className='md:text-xl text-lg text-center md:text-start font-semibold md:mb-5 mb-4'>My Project</h5>
+                                    <Title name={'My Project'}/>
+
             <div className='grid md:grid-cols-2 gap-3 lg:grid-cols-3 grid-cols-1'>
             {
                         projectdatas.map((item) => (

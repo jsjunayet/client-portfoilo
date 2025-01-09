@@ -5,6 +5,7 @@ import { mySkill } from '../data/picture/data';
 import './style.css';
 import SideSkill from '../sidever/SideSkill';
 import { ThemContext } from '@/Component/Context/ThemContext';
+import Title from '@/Component/Utility/Title';
 
 const Skill = () => {
     const [selectedskill, setselectedskill] = useState(mySkill[0]);
@@ -29,8 +30,8 @@ const Skill = () => {
     };
 
     return (
-        <section className={`relative md:ml-2 ml-0 mt-6 md:mt-20 ${Light === "light" ? "bg-light" : "bg-dark"}`}>
-            <h5 className='md:text-xl text-lg text-center md:text-start font-semibold md:mb-10 mb-4'>Technical Proficiency</h5>
+        <section id='skills' className={`relative md:ml-2 ml-0 mt-6 md:mt-20 ${Light === "light" ? "bg-light" : "bg-dark"}`}>
+            <Title name={'Technical Proficiency'}/>
             <div className='Skills-content'>
                 <div className='skills'>
                     {mySkill.map((item) => (

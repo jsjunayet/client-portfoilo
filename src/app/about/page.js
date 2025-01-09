@@ -5,7 +5,8 @@ import Link from 'next/link';
 
 const About = () => {   
     return (
-        <div className=' min-h-screen flex justify-center items-center pt-20 max-w-5xl mx-auto mb-10'>
+       <section id="about">
+         <div className=' min-h-screen flex justify-center items-center pt-20 max-w-5xl mx-auto mb-10'>
            <div className='flex md:flex-row gap-10 flex-col-reverse'>
            <div className=' space-y-3 px-3 flex-1 md:mt-20 mt-0  '>
                             <p className='text-2xl font-semibold'>I`m <span className='text-green-600'>Junayet Shiblu</span>, a Web Developer</p>
@@ -36,6 +37,7 @@ const About = () => {
            </div>
            </div>
         </div>
+       </section>
     );
 };
 

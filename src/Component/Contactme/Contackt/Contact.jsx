@@ -5,6 +5,7 @@ import ContactCard from '../ContactCard/ContactCard';
 import ContactFrom from '../ContactFrom/ContactFrom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Title from '@/Component/Utility/Title';
 
 
 
@@ -15,7 +16,7 @@ const Contact = () => {
     }, []);
     return (
         <section className='relative md:ml-2 ml-0 mt-6 md:mt-10 '>
-            <h5 className='md:text-xl text-lg text-center md:text-start font-semibold md:mb-10 mb-4'>Contact Information</h5>
+                        <Title name={'Contact Information'}/>
 
             <div className='contact-content'>
                 <div data-aos="fade-up" data-aos-delay="100" className='left' >

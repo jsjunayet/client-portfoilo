@@ -2,12 +2,13 @@ import Image from 'next/image';
 import './aboutsetion.css'
 import { FaDownload, FaFacebook, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Link from 'next/link';
+import Title from '../Utility/Title';
 
 const AboutSetion = () => {   
     return (
         <div className='ml-0 md:ml-2   max-w-5xl mx-auto md:mt-20 mt-6'>
-            <p className='md:text-xl text-lg text-center md:text-start font-semibold md:mb-10 mb-8'>My About</p>
-           <div className='flex md:flex-row-reverse md:gap-x-20 gap-x-0 gap-y-8 md:gap-y-0 flex-col-reverse'>
+            <Title name={'about me'}/>
+            <div className='flex md:flex-row-reverse md:gap-x-20 gap-x-0 gap-y-8 md:gap-y-0 flex-col-reverse'>
            <div className=' space-y-3 px-3 flex-1 md:pt-8 mt-0  '>
                             <p className='text-base md:text-lg font-semibold'>I`m <span className='text-green-600'>Sadia AKter</span>, a Accountant & Bookkeeper</p>
                             <p className='text-sm md:text-base text-[#a2a8a8]'>  I specialize in organizing and maintaining accurate books, ensuring compliance with accounting standards, preparing accounts ready to fill TAX, and assisting businesses in making wise financial decisions!</p>

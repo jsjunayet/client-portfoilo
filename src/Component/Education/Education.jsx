@@ -5,6 +5,7 @@ import './Education.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ThemContext } from '../Context/ThemContext';
+import Title from '../Utility/Title';
 
 const Education = () => {
     const { Light } = useContext(ThemContext);
@@ -14,7 +15,8 @@ const Education = () => {
 
     return (
         <div className='relative md:ml-2 ml-0 mt-6 md:mt-20 mx-2 md:mx-0'>
-            <h5 className='md:text-xl text-lg text-center md:text-start font-semibold md:mb-10 mb-4'>Educational Qualifications</h5>
+                                    <Title name={'Educational History'}/>
+
             <ul className={`timeline timeline-snap-icon max-md:timeline-compact timeline-vertical ${Light === "light" ? "text-gray-300" : ""}`}>
                 
                 {/* MBA */}
