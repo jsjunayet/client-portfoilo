@@ -1,0 +1,31 @@
+.main_content{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.main_content h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.Alldesgin{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin: 0 5px;
+    margin-top: 15px;
+}
+@media (max-width:768px) {
+    .main_content{
+        margin: 0px 10px;
+    }
+    .Alldesgin{
+        margin: 15px 0px;
+    }
+    .main_content h5{
+        text-align: center;
+    
+    }
+    
+}
