@@ -10,7 +10,7 @@ const Allproject = () => {
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/res2.jpg",
+      src: "/sadia3.jpg",
       text: "Bookkeeping for Salons",
       pdfLink: "/pdfs/salons.pdf",
     },
@@ -25,7 +25,7 @@ const Allproject = () => {
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/res2.jpg",
+      src: "/sadia3.jpg",
       text: "Bookkeeping for Salons",
       pdfLink: "/pdfs/salons.pdf",
     },
@@ -37,9 +37,8 @@ const Allproject = () => {
   ];
 
   return (
-   <section className="mt-10">
-            <Title name={"MY Project"}/>
-
+   <section id="project" className="mt-10">
+        <Title name={"My Project"}/>
      <div className="mt-10 grid gap-4 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3">
       {images.map((image, index) => (
         <HoverImage

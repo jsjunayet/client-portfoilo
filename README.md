@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sadia Akter | Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This platform highlights my skills, expertise, and professional experiences. Built with the latest technologies, it serves as a hub for showcasing my projects and connecting with me.
 
-First, run the development server:
+## About Me
+I'm **Sadia Akter**, an **Accountant & Bookkeeper** with a passion for financial accuracy and compliance. I specialize in:
+- Maintaining organized and precise bookkeeping records.
+- Ensuring compliance with accounting standards.
+- Preparing accounts for tax filing.
+- Assisting businesses in making informed financial decisions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Currently, I work at **Pride Biz Solutions**, where I manage diverse client accounts with efficiency and precision. My work focuses on providing tailored bookkeeping solutions and optimizing workflows to enhance financial clarity for my clients.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+## Features
+- **Hero Section**: A welcoming introduction to my portfolio.
+- **Offer Section**: Highlights of the services I provide.
+- **Skills Section**: Showcases my professional competencies.
+- **About Section**: Insight into my journey and expertise.
+- **Education Section**: Overview of my academic background.
+- **Projects Section**: Detailed view of my professional and personal projects.
+- **Contact Section**: Easily get in touch with me.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
+- **Frontend**: React.js, Next.js, Tailwind CSS, DaisyUI, Framer Motion.
+- **Icons**: React Icons.
+- **Other Tools**: AOS animations, SweetAlert2.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Project Highlights
+1. **Efficient Bookkeeping**: Leveraging my expertise to assist clients in financial management.
+2. **Customized Solutions**: Delivering personalized financial solutions for business needs.
+3. **Workflow Optimization**: Enhancing clarity and efficiency in financial operations.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Live Website
+Explore the live version of my portfolio website here: [Sadia Akter Portfolio](#)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Install dependencies:
+   ```bash
+   npm install
+    ```
+  
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the site in your browser:
+   ```
+   http://localhost:3000
+   ```

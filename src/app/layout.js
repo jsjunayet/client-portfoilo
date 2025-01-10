@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/Component/Navbar/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MainLayout from "@/Component/MainLayout";
+import MainLayout from "@/Component/Utility/MainLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 

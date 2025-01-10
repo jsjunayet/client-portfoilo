@@ -6,7 +6,6 @@ import emailjs from '@emailjs/browser';
 
 const ContactFrom = () => {
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_jtcfjzr',
@@ -35,11 +34,10 @@ const ContactFrom = () => {
                     <input name="to_name" required type="text" placeholder='First Name' />
                     <input name='to_names' required type="text" placeholder='Last Name' />
                 </div>
-                <input name="from_name" required type="email" placeholder='Email' />
+                <input name="from_name" required type="email" placeholder='Enter your email address' />
                 <textarea required name="message" placeholder='Message'></textarea>
                 <button>Send</button>
             </form>
-
         </div>
         </div>
     );

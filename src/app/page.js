@@ -1,12 +1,11 @@
 import Hero from '@/Component/Home/Hero/Hero';
-import Project from '@/Component/Project/Projects/Project';
 import Skill from '@/Component/Skill/skills/Skill';
 import React from 'react';
-import Contact from '@/Component/Contactme/Contackt/Contact';
 import Education from '@/Component/Education/Education';
 import AboutSetion from '@/Component/aboutsection/AboutSetion';
 import Offer from '@/Component/Offer/Offer';
 import Allproject from '@/Component/Allproject/Allproject';
+import Contact from '@/Component/Contactme/Contact';
 
 const Home = () => {
   return (
@@ -18,8 +17,6 @@ const Home = () => {
       <AboutSetion></AboutSetion>
       <Education></Education>
       <Allproject/>
-      {/* <Project></Project> */}
-      {/* <Hire></Hire> */}
       <Contact></Contact>
     </div>
    

@@ -14,12 +14,9 @@ const Education = () => {
     }, []);
 
     return (
-        <div className='relative md:ml-2 ml-0 mt-6 md:mt-20 mx-2 md:mx-0'>
-                                    <Title name={'Educational History'}/>
-
+        <section id='edu' className='relative md:ml-2 ml-0 mt-6 md:mt-20 mx-2 md:mx-0'>
+            <Title name={'Educational History'}/>
             <ul className={`timeline timeline-snap-icon max-md:timeline-compact timeline-vertical ${Light === "light" ? "text-gray-300" : ""}`}>
-                
-                {/* MBA */}
                 <li data-aos="fade-up">
                     <div className="timeline-middle">
                         <Image className='bg-white rounded' src="/niter.png" alt='Govt. Titumir College' width={25} height={25}></Image>
@@ -72,7 +69,7 @@ const Education = () => {
                     <hr />
                 </li>
             </ul>
-        </div>
+        </section>
     );
 };
 

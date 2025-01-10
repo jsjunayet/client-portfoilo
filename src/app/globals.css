@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-  color: white;
-  background-color: #060417;
-} */
 .dark-mode{
   color: white;
   background-color: #060417;

@@ -3,29 +3,51 @@ import React, { useContext } from "react";
 import { ThemContext } from "../Context/ThemContext";
 import Title from "../Utility/Title";
 
-const skillsData = [
+const servicesData = [
   {
-    title: "Frontend",
+    title: "Custom Accounting Solutions",
     description:
-      "Frontend development involves crafting the visual elements of a website or application to create a user-friendly and engaging interface. Frontend developers use HTML, CSS, and JavaScript to build.",
-    icon: "🖌️", // Replace with an image/icon if needed
-    hoverColor: "bg-blue-100",
+      "Efficiently tailored accounting services designed to meet unique financial needs and ensure long-term success for businesses of all sizes.",
+    icon: "📊", // Replace with an image/icon if needed
+    hoverColor: "bg-blue-200",
   },
   {
-    title: "Backend",
+    title: "Streamlined Bookkeeping",
     description:
-      "Backend development focuses on server-side programming, databases, and server management to create the functional infrastructure that powers websites and applications.",
-    icon: "🔧",
+      "End-to-end bookkeeping solutions customized to align with your business operations and enhance financial clarity.",
+    icon: "🗂️",
     hoverColor: "bg-blue-300",
   },
   {
-    title: "Fullstack",
+    title: "Financial Reports",
     description:
-      "Full-stack development encompasses both frontend and backend programming, enabling developers to create complete, end-to-end web applications, handling user interfaces.",
-    icon: "🌐",
+      "Comprehensive monthly, quarterly, and annual financial insights for informed and strategic decision-making.",
+    icon: "📑",
+    hoverColor: "bg-green-200",
+  },
+  {
+    title: "E-commerce Bookkeeping",
+    description:
+      "Specialized services for tracking daily sales, managing inventory, and reconciling payment gateways for e-commerce businesses.",
+    icon: "🛒",
+    hoverColor: "bg-blue-200",
+  },
+  {
+    title: "Payroll Processing",
+    description:
+      "Efficient payroll management, ensuring accurate and timely payments while complying with tax regulations.",
+    icon: "💵",
+    hoverColor: "bg-blue-300",
+  },
+  {
+    title: "Tax Preparation & Compliance",
+    description:
+      "Accurate tax preparation and compliance services, ensuring your business meets all regulatory requirements with ease.",
+    icon: "📂",
     hoverColor: "bg-green-200",
   },
 ];
+
 
 // Reusable SkillCard Component
 const SkillCard = ({ title, description, icon, hoverColor }) => {
@@ -46,17 +68,17 @@ const Offer = () => {
     const { Light } = useContext(ThemContext);
 
   return (
-    <section  className={`p-10 mt-16 rounded-lg ${Light?"bg-[#060417]":""}`}>
+    <section id="offer"  className={`md:p-10 p-5 mt-16 rounded-lg ${Light?"bg-[#060417]":""}`}>
       <div className="container mx-auto">
         {/* Section Title */}
-        <Title name={"SKILLS"}/>
+        <Title name={"What Do I Offer"}/>
         <p className="text-lg text-center text-gray-300 mb-12">
-          Expertise in various development stacks to create modern, scalable, and efficient applications.
+        Efficiently tailored services designed to meet unique financial needs and ensure long-term success.
         </p>
 
         {/* Skill Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:space-y-0 space-y-4">
-          {skillsData.map((skill, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:space-y-0 space-y-4">
+          {servicesData.map((skill, index) => (
             <SkillCard
               key={index}
               title={skill.title}

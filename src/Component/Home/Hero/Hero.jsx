@@ -9,7 +9,7 @@ import Photo from '../Photo/Photo';
 const Hero = () => {
     const { Light } = useContext(ThemContext)
     return (
-        <section id="home" className="max-w-5xl mx-auto md:mt-16 mt-0 ">
+        <section id="hero" className="max-w-5xl mx-auto md:mt-16 mt-0 ">
             <div className='flex md:flex-row gap-y-5 md:gap-y-0 flex-col-reverse md:justify-between justify-center items-center w-full '>
             <div className='md:w-[50%] w-full space-y-2 md:space-y-5 md:px-0 px-4'>
                 <h2 className={`md:text-3xl text-xl md:leading-[50px] leading-[35px] font-semibold ${Light == "text-gray-900" ? "" : "text-gray-400"}`}>
