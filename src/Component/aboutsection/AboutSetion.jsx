@@ -6,7 +6,7 @@ import Title from '../Utility/Title';
 
 const AboutSetion = () => {   
     return (
-        <section id='about' className='ml-0 md:ml-2   max-w-5xl mx-auto md:mt-20 mt-6'>
+        <section id='about' className='ml-0 md:ml-2   max-w-5xl mx-auto'>
             <Title name={'About Me'}/>
             <div className='flex md:flex-row-reverse md:gap-x-20 gap-x-0 gap-y-8 md:gap-y-0 flex-col-reverse'>
            <div className=' space-y-3 px-3 flex-1 md:pt-8 mt-0  '>

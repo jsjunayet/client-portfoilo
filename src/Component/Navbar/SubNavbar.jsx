@@ -6,6 +6,7 @@ import Link from "next/link";
 import { MdLightMode } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { ThemContext } from "../Context/ThemContext";
+import { navLinks } from "../Utility/Alldata";
 
 const SubNavbar = () => {
     const [open, setOpen] = useState(false);
@@ -63,15 +64,7 @@ const SubNavbar = () => {
         return () => observer.disconnect();
     }, []);
 
-    const navLinks = [
-        { id: "hero", title: "Hero" },
-        { id: "offer", title: "Offer" },
-        { id: "skills", title: "Skills" },
-        { id: "about", title: "About" },
-        { id: "edu", title: "Education" },
-        { id: "project", title: "Projects" },
-        { id: "contact", title: "Contact" },
-    ];
+ 
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);

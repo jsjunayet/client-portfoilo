@@ -10,7 +10,7 @@ import Contact from '@/Component/Contactme/Contact';
 const Home = () => {
   return (
     <>
-    <div className='pt-12 md:pt-20 max-w-5xl mx-auto'>
+    <div className=' max-w-5xl mx-auto space-y-8'>
       <Hero></Hero>
       <Offer/>
       <Skill></Skill>

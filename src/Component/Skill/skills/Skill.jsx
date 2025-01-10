@@ -30,7 +30,7 @@ const Skill = () => {
     };
 
     return (
-        <section id='skills' className={`relative md:ml-2 ml-0 mt-6 md:mt-20 ${Light === "light" ? "bg-light" : "bg-dark"}`}>
+        <section id='skills' className={`relative md:ml-2  ${Light === "light" ? "bg-light" : "bg-dark"}`}>
             <Title name={'Technical Proficiency'}/>
             <div className='Skills-content'>
                 <div className='skills'>

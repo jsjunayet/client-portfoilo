@@ -2,7 +2,7 @@ import React from 'react';
 
 const Title = ({ name }) => {
     return (
-        <div className="flex justify-center items-center relative mb-5">
+        <div className="flex justify-center items-center relative md:mb-5 mb-4">
         
 
             {/* Title text */}

@@ -14,7 +14,7 @@ const Education = () => {
     }, []);
 
     return (
-        <section id='edu' className='relative md:ml-2 ml-0 mt-6 md:mt-20 mx-2 md:mx-0'>
+        <section id='edu' className='relative md:ml-2 ml-0  mx-2 md:mx-0'>
             <Title name={'Educational History'}/>
             <ul className={`timeline timeline-snap-icon max-md:timeline-compact timeline-vertical ${Light === "light" ? "text-gray-300" : ""}`}>
                 <li data-aos="fade-up">

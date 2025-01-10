@@ -37,7 +37,7 @@ const Allproject = () => {
   ];
 
   return (
-   <section id="project" className="mt-10">
+   <section id="project" className="">
         <Title name={"My Project"}/>
      <div className="mt-10 grid gap-4 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3">
       {images.map((image, index) => (
