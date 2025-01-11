@@ -9,7 +9,7 @@ const Photo = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2, duration: 0.4, ease: "easeIn" },
+        transition: {  duration: 0.4, ease: "easeIn" },
       }}
       className=" flex items-center justify-center lg:justify-end w-full  lg:mt-0"
     >
@@ -55,7 +55,7 @@ const Photo = () => {
               rotate: [150, 420],
             }}
             transition={{
-              duration: 20,
+              duration: 10,
               repeat: Infinity,
               repeatType: "reverse",
             }}
