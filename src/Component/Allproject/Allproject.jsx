@@ -5,34 +5,34 @@ import Title from "../Utility/Title";
 const Allproject = () => {
   const images = [
     {
-      src: "/js.png",
-      text: "Bookkeeping for Restaurants",
+      src: "/E-commerce2.png",
+      text: " E-Commerce Bookkeeping",
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/js1.png",
-      text: "Bookkeeping for Salons",
+      src: "/project1.png",
+      text: "Xero Bookkeeping",
       pdfLink: "/pdfs/salons.pdf",
     },
     {
-      src: "/js3.png",
-      text: "Bookkeeping for House Rent Companies",
+      src: "/project2.png",
+      text: "Quickbooks Online",
       pdfLink: "/pdfs/house-rent.pdf",
     },
   
     {
-      src: "/js.png",
-      text: "Bookkeeping for Restaurants",
+      src: "/project3.png",
+      text: "Accounting & Bookkeeping service, Clean-up & Catch up",
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/js1.png",
-      text: "Bookkeeping for Salons",
+      src: "/cerrtificate.png",
+      text: "QuickBooks Online Advanced Certificated",
       pdfLink: "/pdfs/salons.pdf",
     },
     {
-      src: "/js3.png",
-      text: "Bookkeeping for House Rent Companies",
+      src: "/certificate1.png",
+      text: "Xero advisor Certified",
       pdfLink: "/pdfs/house-rent.pdf",
     },
   
@@ -40,7 +40,7 @@ const Allproject = () => {
 
   return (
    <section id="project" className="">
-        <Title name={"My Project"}/>
+        <Title name={"Achievements & Projects"}/>
      <div className="mt-10 grid gap-4 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3">
       {images.map((image, index) => (
         <HoverImage

@@ -11,8 +11,8 @@ const AboutSetion = () => {
             <div className='flex md:flex-row-reverse md:gap-x-20 gap-x-0 gap-y-8 md:gap-y-0 flex-col-reverse'>
            <div className=' space-y-3 px-3 flex-1 md:pt-8 mt-0  '>
                             <p className='text-base md:text-lg font-semibold'>I`m <span className='text-green-600'>Sadia AKter</span>, a Accountant & Bookkeeper</p>
-                            <p className='text-sm md:text-base text-[#a2a8a8]'>  I specialize in organizing and maintaining accurate books, ensuring compliance with accounting standards, preparing accounts ready to fill TAX, and assisting businesses in making wise financial decisions!</p>
-                            <p className='text-sm md:text-base text-[#6e7272]'>
+                            <p className='text-sm md:text-base '>  I specialize in organizing and maintaining accurate books, ensuring compliance with accounting standards, preparing accounts ready to fill TAX, and assisting businesses in making wise financial decisions!</p>
+                            <p className='text-sm md:text-base '>
                             Currently, I work at an agency <strong>“Pride Biz Solutions”</strong> where I handle diverse client accounts, with efficiency and precision in my work. I am passionate about providing specific bookkeeping solutions and optimizing workflows to improve financial clarity for my clients.
                             </p> 
                             <div className='flex items-center md:gap-5 gap-0 md:justify-start justify-evenly'>
