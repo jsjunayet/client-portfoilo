@@ -5,35 +5,37 @@ import Title from "../Utility/Title";
 const Allproject = () => {
   const images = [
     {
-      src: "/sadia3.jpg",
+      src: "/js.png",
       text: "Bookkeeping for Restaurants",
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/sadia3.jpg",
+      src: "/js1.png",
       text: "Bookkeeping for Salons",
       pdfLink: "/pdfs/salons.pdf",
     },
     {
-      src: "/sadia3.jpg",
+      src: "/js3.png",
       text: "Bookkeeping for House Rent Companies",
       pdfLink: "/pdfs/house-rent.pdf",
     },
+  
     {
-      src: "/sadia3.jpg",
+      src: "/js.png",
       text: "Bookkeeping for Restaurants",
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
-      src: "/sadia3.jpg",
+      src: "/js1.png",
       text: "Bookkeeping for Salons",
       pdfLink: "/pdfs/salons.pdf",
     },
     {
-      src: "/sadia3.jpg",
+      src: "/js3.png",
       text: "Bookkeeping for House Rent Companies",
       pdfLink: "/pdfs/house-rent.pdf",
     },
+  
   ];
 
   return (

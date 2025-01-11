@@ -11,13 +11,13 @@ const ContactFrom = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setIsLoading(true); // Start loading
+    setIsLoading(true); 
     emailjs
       .sendForm(
-        "service_vfij11a",
-        "template_blywdsr",
+        "service_wn5s998",
+        "template_kea4eb9",
         form.current,
-        "3CqoWZfneUNDFwJ-2"
+        "0HOscwHAu4457xcFH"
       )
       .then(
         (result) => {
@@ -77,7 +77,7 @@ const ContactFrom = () => {
             placeholder="Enter your email address"
           />
           <textarea required name="message" placeholder="Message"></textarea>
-          <button type="submit" disabled={isLoading}>
+          <button className=" bg-[#130f2a]" type="submit" disabled={isLoading}>
             {isLoading ? "Sending..." : "Send"}
           </button>
         </form>

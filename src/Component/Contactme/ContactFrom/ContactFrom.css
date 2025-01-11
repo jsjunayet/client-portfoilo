@@ -33,10 +33,7 @@ form button {
     transition: all 0.3s ease;
     cursor: pointer;
 }
-form button:hover{
-    color: #a892fe;
-    background: transparent;
-}
+
 @media (max-width:768px) {
     .name-contaner{
         flex-direction: column;
