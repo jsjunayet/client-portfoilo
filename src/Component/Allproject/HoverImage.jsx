@@ -1,6 +1,6 @@
 import React from "react";
 
-const HoverImage = ({ imageSrc, hoverText, pdfLink }) => {
+const HoverImage = ({ imageSrc, hoverText, pdfLink, isCertificate }) => {
   return (
     <div className="relative group aspect-[16/10] overflow-hidden rounded-lg shadow-md">
     <div
@@ -13,12 +13,12 @@ const HoverImage = ({ imageSrc, hoverText, pdfLink }) => {
         {hoverText}
       </p>
       <a
-        href={pdfLink}
-        download
-        className="mt-4 px-4 py-2 bg-blue-500 rounded text-white font-medium hover:bg-blue-600 transition-colors duration-300"
-      >
-        Project PDF
-      </a>
+          href={pdfLink}
+          download
+          className="mt-4 px-4 py-2 bg-blue-500 rounded text-white font-medium hover:bg-blue-600 transition-colors duration-300"
+        >
+          {isCertificate ? "Certificate PDF" : "Project PDF"}
+        </a>
     </div>
   </div>
   

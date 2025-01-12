@@ -5,8 +5,25 @@ import Title from "../Utility/Title";
 const Allproject = () => {
   const images = [
     {
-      src: "/E-commerce2.png",
+      src: "/e-comm.png",
       text: " E-Commerce Bookkeeping",
+      pdfLink: "/pdfs/restaurants.pdf",
+    },
+    {
+      src: "/cleanUp1.png",
+      text: " Clean-up & Catch up",
+      pdfLink: "/pdfs/restaurants.pdf",
+    },
+    
+    {
+      src: "/online.png",
+      text: "Quickbooks Online",
+      pdfLink: "/pdfs/house-rent.pdf",
+    },
+  
+    {
+      src: "/book.png",
+      text: "Accounting & Bookkeeping service",
       pdfLink: "/pdfs/restaurants.pdf",
     },
     {
@@ -15,26 +32,12 @@ const Allproject = () => {
       pdfLink: "/pdfs/salons.pdf",
     },
     {
-      src: "/project2.png",
-      text: "Quickbooks Online",
-      pdfLink: "/pdfs/house-rent.pdf",
-    },
-  
-    {
-      src: "/project3.png",
-      text: "Accounting & Bookkeeping service, Clean-up & Catch up",
-      pdfLink: "/pdfs/restaurants.pdf",
-    },
-    {
       src: "/cerrtificate.png",
       text: "QuickBooks Online Advanced Certificated",
       pdfLink: "/pdfs/salons.pdf",
+      isCertificate: true,
     },
-    {
-      src: "/certificate1.png",
-      text: "Xero advisor Certified",
-      pdfLink: "/pdfs/house-rent.pdf",
-    },
+   
   
   ];
 
@@ -48,6 +51,7 @@ const Allproject = () => {
           imageSrc={image.src}
           hoverText={image.text}
           pdfLink={image.pdfLink}
+          isCertificate={image.isCertificate || false}
         />
       ))}
     </div>
