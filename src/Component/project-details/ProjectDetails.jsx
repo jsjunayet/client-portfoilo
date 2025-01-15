@@ -22,7 +22,7 @@ const ProjectDetails = ({ sigleProject }) => {
   const relatedProject = ProjectDetailsData.filter((projects)=>projects?.type===project?.type && projects?.title!=project?.title)
 
 if(!project){
-  return <>hell</>
+  return <></>
 }
   const handleOpen = (i) => {
     setSlideNumber(i);
