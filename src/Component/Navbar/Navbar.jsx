@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <SubNavbar></SubNavbar>
+            
         </div>
     );
 };
