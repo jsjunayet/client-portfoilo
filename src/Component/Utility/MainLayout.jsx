@@ -4,6 +4,7 @@ import React from 'react';
 import ContextProvider, { ThemContext } from '../Context/ThemContext';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import { usePathname } from 'next/navigation';
 
 const MainLayout = ({ children }) => {
     return (
