@@ -11,7 +11,7 @@ const Loading = () => {
   });
 
   return (
-    <div className='min-h-[80vh] flex flex-col justify-center items-center'>
+    <div className='min-h-[100vh] flex flex-col justify-center items-center'>
       <animated.div style={springProps}>
         <div className='rounded-full h-32 w-32 bg-blue-500 mb-4'></div>
       </animated.div>

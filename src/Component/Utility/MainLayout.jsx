@@ -7,13 +7,15 @@ import Footer from '../Footer/Footer';
 import { usePathname } from 'next/navigation';
 
 const MainLayout = ({ children }) => {
+        const pathName = usePathname()
+    const isDynamicPath = /\/[^/]+/.test(pathName);
     return (
         <>
             <ContextProvider>
                 <ThemContext.Consumer>
                     {(value) => (
                         <div className={value.Light === "light" ? "light-mode" : "dark-mode"}>
-                            <Navbar />
+                            {!isDynamicPath && <Navbar />}
                             {children}
                             <Footer />
                         </div>

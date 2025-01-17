@@ -16,9 +16,11 @@ import { ProjectDetailsData } from "../Utility/Alldata";
 
 const ProjectDetails = ({ sigleProject }) => {
   const [slideNumber, setSlideNumber] = useState(0);
+
   const [open, setOpen] = useState(false);
 
   const project = ProjectDetailsData.find((p)=>p?.title===sigleProject)
+  console.log(project);
   const relatedProject = ProjectDetailsData.filter((projects)=>projects?.type===project?.type && projects?.title!=project?.title)
 
 if(!project){
@@ -43,7 +45,7 @@ if(!project){
   
 
   return (
-    <div className="relative pt-16">
+    <div className="relative text-gray-300">
       <div className="flex justify-center">
         {open && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
@@ -112,6 +114,22 @@ if(!project){
               </ul>
               <p className="mt-4">{project?.description}</p>
             </div>
+            <div className="p-2 h-full border bg-gray-300 shadow-md rounded-b-lg mt-4">
+              <h3 className="text-lg font-bold text-gray-900 mb-0">Related PDFs</h3>
+              {project?.pdf && project.pdf.length > 0 ? (
+                <ul className="space-y-2">
+                  {project.pdf.map((pdf, index) => (
+                    <li key={index} className="text-blue-500 hover:underline">
+                      <a href={pdf.link} target="_blank">
+                        {pdf.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className=" text-gray-900">No related PDFs available.</p>
+              )}
+            </div>
           </div>
           </div>
           <div className="grid grid-cols-1 md:gap-4 gap-2 mt-8 mb-4">
@@ -126,7 +144,7 @@ if(!project){
             ))}
           </div>
           </div>
-          <div className="p-2 my-4 md:my-0 md:w-[30%] w-full md:ml-5 ml-0 sticky top-14 h-full border  bg-white shadow-md rounded-b-lg">
+          <div className="p-2 my-4 md:my-0 md:w-[30%] w-full md:ml-5 ml-0 sticky top-0 h-full border  bg-gray-100 shadow-md rounded-b-lg">
       <h2 className="text-lg font-bold text-gray-900 text-center mb-2">POPULAR</h2>
       <ul className="space-y-4">
 
@@ -135,7 +153,7 @@ if(!project){
       {relatedProject?.map((item, index) => (
         <li key={index} className="flex items-center space-x-4">
           <Image
-            src={item.images[0]}
+            src={item?.images && item?.images.length > 0 ? item.images[0] : '/5.png'}
             alt={item.title}
             width={100}
             height={100}
