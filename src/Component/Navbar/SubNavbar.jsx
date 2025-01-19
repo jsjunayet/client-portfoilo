@@ -23,6 +23,12 @@ const SubNavbar = () => {
 
   const closeMenu = () => setOpen(false);
   const [activeSection, setActiveSection] = useState("hero");
+  const getThreshold = () => {
+    if (window.innerWidth >= 1280) return 0.9; // XL screens
+    if (window.innerWidth >= 1024) return 0.7; // LG screens
+    if (window.innerWidth >= 768) return 0.5; // MD screens
+    return 0.3; // SM screens
+  };
 
   // Detect page scroll and active section
   useEffect(() => {
@@ -30,7 +36,7 @@ const SubNavbar = () => {
     const observerOptions = {
       root: null,
       rootMargin: "0px",
-      threshold: 1, // 30% visible to activate section
+      threshold: getThreshold(), // 30% visible to activate section
     };
 
     const observer = new IntersectionObserver((entries) => {

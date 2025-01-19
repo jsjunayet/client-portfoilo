@@ -8,17 +8,21 @@ import {
 
 } from "@fortawesome/free-solid-svg-icons";
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "./projectdetails.css";
 import Link from "next/link";
 import Image from "next/image";
 import { ProjectDetailsData } from "../Utility/Alldata";
+import { ThemContext } from "../Context/ThemContext";
 
 const ProjectDetails = ({ sigleProject }) => {
   const [slideNumber, setSlideNumber] = useState(0);
+  const { Light, setLight } = useContext(ThemContext);
+  console.log(Light);
+
 
   const [open, setOpen] = useState(false);
-
+console.log(sigleProject);
   const project = ProjectDetailsData.find((p)=>p?.title===sigleProject)
   console.log(project);
   const relatedProject = ProjectDetailsData.filter((projects)=>projects?.type===project?.type && projects?.title!=project?.title)
@@ -45,7 +49,7 @@ if(!project){
   
 
   return (
-    <div className="relative text-gray-300">
+    <div className={` relative ${Light==="dark"? "text-gray-300":" text-black"}`}>
       <div className="flex justify-center">
         {open && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
@@ -65,7 +69,7 @@ if(!project){
                 alt="all"
                 width={500}
                 height={700}
-                className="w-4/5 sm:w-3/5 lg:w-1/2 max-w-2xl"
+                className="w-4/5 sm:w-3/5 lg:w-1/2  max-w-2xl object-contain"
               />
             </div>
             <FontAwesomeIcon
@@ -139,13 +143,14 @@ if(!project){
                 className="w-full cursor-pointer"
                 onClick={() => handleOpen(i)}
               >
-                <Image width={500} height={700} src={image} alt="" className="w-full mb-2 rounded-lg" />
+                <Image width={500} height={700} src={image} alt="" className="w-full mb-2 rounded-lg object-cover" />
               </div>
             ))}
           </div>
           </div>
           <div className="p-2 my-4 md:my-0 md:w-[30%] w-full md:ml-5 ml-0 sticky top-0 h-full border  bg-gray-100 shadow-md rounded-b-lg">
-      <h2 className="text-lg font-bold text-gray-900 text-center mb-2">POPULAR</h2>
+      <h2 className="text-xl font-bold text-gray-900 text-center mb-1">Related Project</h2>
+      <h2 className="text-lg text-[#149ECA] text-center mb-2">{project.type}</h2>
       <ul className="space-y-4">
 
       {relatedProject?.length > 0 ? (

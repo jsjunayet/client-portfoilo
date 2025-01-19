@@ -22,11 +22,11 @@ const Offer = () => {
     const { Light } = useContext(ThemContext);
 
   return (
-    <section id="offer"  className={`md:p-10 p-5  rounded-lg ${Light?"bg-[#060417]":""}`}>
+    <section id="offer"  className={`md:p-10 p-5  rounded-lg ${Light?"bg-gray-100 text-black":"bg-[#060417]"}`}>
       <div className="container mx-auto">
         {/* Section Title */}
         <Title name={"What Do I Offer"}/>
-        <p className="text-lg text-center text-gray-300 mb-12">
+        <p className="text-lg text-center  mb-12">
         Efficiently tailored services designed to meet unique financial needs and ensure long-term success.
         </p>
 

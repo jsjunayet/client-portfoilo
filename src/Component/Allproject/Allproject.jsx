@@ -15,7 +15,8 @@ const Allproject = () => {
         <HoverImage
           key={item.id}
           imageSrc={item.images[0]}
-          hoverText={item.title}
+          hoverText={item.type}
+          link={item.title}
         />
       ))}
     </div>

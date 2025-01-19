@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 
-const HoverImage = ({ imageSrc, hoverText }) => {
-  const encodedHoverText = encodeURIComponent(hoverText);
+const HoverImage = ({ imageSrc, hoverText, link }) => {
+  const encodedHoverText = encodeURIComponent(link);
 
   return (
     <div className="relative group aspect-[16/10] overflow-hidden rounded-lg shadow-md">
