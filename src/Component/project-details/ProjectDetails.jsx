@@ -91,7 +91,7 @@ const ProjectDetails = ({ sigleProject }) => {
         <div className="md:flex w-full gap-8">
           {/* Project Details */}
           <div className="md:w-2/3">
-            <h2 className="text-3xl font-extrabold mb-4">{project?.title}</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold   mb-4 t">{project?.title}</h2>
             {project.description && (
               <h3 className="text-xl font-bold mb-4">Project Details</h3>
             )}
@@ -166,7 +166,7 @@ const ProjectDetails = ({ sigleProject }) => {
           </div>
 
           {/* Related Projects */}
-          <div className="md:w-1/3 sticky top-0 h-full bg-gray-100 dark:bg-gray-800 text-black p-4 rounded-b-lg shadow-lg">
+          <div className="md:w-1/3 sticky top-0 h-full bg-gray-100 dark:bg-gray-800 text-black p-4 rounded-b-lg shadow-lg mt-4 md:mt-0">
             <h2 className="text-xl font-bold mb-2 text-center">
               Related Projects
             </h2>
@@ -186,7 +186,7 @@ const ProjectDetails = ({ sigleProject }) => {
                     />
                     <Link
                       href={`/${item.title}`}
-                      className="text-sm hover:text-blue-500 font-medium"
+                      className="text-sm hover:text-blue-500 font-medium truncate w-[90%]"
                     >
                       {item.title}
                     </Link>

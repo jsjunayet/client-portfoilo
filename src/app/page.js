@@ -19,7 +19,6 @@ const Home = () => {
       <Education></Education>
       <Allproject/>
       <Contact></Contact>
-      <ProjectDetails/>
     </div>
    
     </>

@@ -10,7 +10,7 @@ const Allproject = () => {
   return (
    <section id="project" className="">
         <Title name={"Achievements & Projects"}/>
-     <div className="mt-10 grid gap-4 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3">
+     <div className="mt-10 grid gap-4 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 mx-2 md:mx-0">
       {ProjectDetailsData.slice(0,6).map((item, index) => (
         <HoverImage
           key={item.id}

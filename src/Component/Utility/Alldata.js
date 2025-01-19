@@ -252,7 +252,7 @@ export const ProjectDetailsData = [
   {
     id: 7,
     type: "E-commerce Bookkeeping",
-    title: "Rahman Intergalactic Enterprises...",
+    title: "Rahman Intergalactic Enterprises LLC DBA Disability lab",
     client: "Confidential",
     industry: "Disability Lab",
     duration: "Jan-July 2024",
