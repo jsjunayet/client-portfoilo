@@ -1,22 +1,31 @@
-"use client"
-import React from 'react';
-import { useSpring, animated } from 'react-spring';
-import { FadeLoader } from 'react-spinners';
+import "../Component/Loader/loader.css";
 
 const Loading = () => {
-  const springProps = useSpring({
-    from: { opacity: 0, transform: 'scale(0)' },
-    to: { opacity: 1, transform: 'scale(1)' },
-    config: { tension: 300, friction: 10 },
-  });
-
   return (
-    <div className='min-h-[100vh] flex flex-col justify-center items-center'>
-      <animated.div style={springProps}>
-        <div className='rounded-full h-32 w-32 bg-blue-500 mb-4'></div>
-      </animated.div>
-      <FadeLoader size={150} color="#36d7b7" />
+    <div className ="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+    <div className ="flex space-x-4 text-6xl font-extrabold relative">
+      <div className ="relative">
+        <div className ="ball"></div>
+        <span className ="letter">S</span>
+      </div>
+      <div className ="relative">
+        <div className ="ball"></div>
+        <span className ="letter">A</span>
+      </div>
+      <div className ="relative">
+        <div className ="ball"></div>
+        <span className ="letter">D</span>
+      </div>
+      <div className ="relative">
+        <div className ="ball"></div>
+        <span className ="letter">I</span>
+      </div>
+      <div className ="relative">
+        <div className ="ball"></div>
+        <span className ="letter">A</span>
+      </div>
     </div>
+  </div>
   );
 };
 

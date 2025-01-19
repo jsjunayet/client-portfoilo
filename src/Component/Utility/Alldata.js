@@ -105,7 +105,33 @@ export const ProjectDetailsData = [
       "Prepared financial statements and reports",
       "Organized records for tax filing and compliance",
     ],
-    images: ['/cleanUp1.png'],
+    images: ['/cleanUp1.png',
+      "/Koad/extra1.png",
+      "/Koad/extra2.png",
+      "/Koad/extra3.png",
+    ],
+    pdf: [
+      {
+       name: "BalanceSheet - Koad 23",
+       link:"/Koad/BalanceSheet - Koad 23.pdf"
+      },
+      {
+       name: "BalanceSheet - Koad 24",
+       link:"/Koad/BalanceSheet - Koad 24.pdf"
+      },
+      {
+       name: "ProfitandLoss - Koad 23",
+       link:"/Koad/ProfitandLoss - Koad 23.pdf"
+      },
+      {
+       name: "ProfitandLoss - Koad 24",
+       link:"/Koad/ProfitandLoss - Koad 24.pdf"
+      },
+      {
+       name: "Koad Logistics LLC - Master Copy",
+       link:"/Koad/Koad Logistics LLC - Master Copy.xlsx"
+      }
+     ],
 
     description:
       "I did bookkeeping for a transportation and logistics company using QuickBooks Online. Accurately recorded revenue, expenses, and payroll transactions while ensuring compliance with industry-specific accounting practices. Performed bank reconciliations, generated financial statements, and provided insights to optimize cash flow and operational efficiency.",
@@ -213,21 +239,20 @@ export const ProjectDetailsData = [
     id: 6,
     type:"Certificated",
     title: "QuickBooks Online Advanced Certificated",
-    client: "N/A",
-    industry: "N/A",
-    duration: "Certified",
-    tools: ["QuickBooks Online Advanced"],
-    services: ["Achieved certification for advanced QuickBooks Online usage."],
-    description:
-      "Completed the QuickBooks Online Advanced certification course, demonstrating expertise in advanced accounting and bookkeeping functionalities.",
-    images: ["/cerrtificate.png","/cerrtificate.png",],
+    images: ["/cerrtificate.png"],
+    pdf: [
+      {
+       name: "BALANCE SHEET SALON",
+       link:"/Salon/BALANCE SHEET SALON.pdf"
+      }
+     ],
     date: "September 5, 2024",
    
   },
   {
     id: 7,
     type: "E-commerce Bookkeeping",
-    title: "Rahman Intergalactic Enterprises LLC DBA Disability lab",
+    title: "Rahman Intergalactic Enterprises...",
     client: "Confidential",
     industry: "Disability Lab",
     duration: "Jan-July 2024",
@@ -520,8 +545,8 @@ export const ProjectDetailsData = [
        link:"/ProfitandLoss -Labify.pdf"
       },
       {
-       name: "BalanceSheet- labify.pdf",
-       link:"/BalanceSheet- labify"
+       name: "BalanceSheet- labify",
+       link:"/BalanceSheet- labify.pdf"
       },
      ],
     description: "Utilized QuickBooks Online and Shopify to manage the financial operations of a salon and spa. Services included recording daily transactions, reconciling accounts, managing sales data from Shopify, and preparing financial reports. Ensured accurate bookkeeping to support business growth and financial planning.",
@@ -577,6 +602,39 @@ export const ProjectDetailsData = [
       "Maintained accurate records for tax compliance",
       "Assisted in budgeting and cash flow management",
     ],
+    images: [
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-55.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-56.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-77.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-6.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-7.jpg",
+    ],
+    pdf: [
+      {
+       name: "BalanceSheet- 2022",
+       link:"/PowerHouse Maintenence/BL/BalanceSheet - 2022.pdf"
+      },
+      {
+       name: "BalanceSheet- 2023",
+       link:"/PowerHouse Maintenence/BL/BalanceSheet - 2023.pdf"
+      },
+      {
+       name: "BalanceSheet- 2024",
+       link:"/PowerHouse Maintenence/BL/BalanceSheet - 2024.pdf"
+      },
+      {
+       name: "ProfitandLoss - 2022",
+       link:"/PowerHouse Maintenence/PNL/ProfitandLoss -2022.pdf"
+      },
+      {
+       name: "ProfitandLoss - 2023",
+       link:"/PowerHouse Maintenence/PNL/ProfitandLoss - 2023.pdf"
+      },
+      {
+       name: "ProfitandLoss - 2024",
+       link:"/PowerHouse Maintenence/PNL/ProfitandLoss - 2024.pdf"
+      },
+     ],
   
     description:
       "I managed financial records for a facility and building maintenance business using QuickBooks Online and Jobber. Responsibilities included tracking service income, managing expenses, reconciling accounts, and generating financial reports. Ensured accurate bookkeeping to maintain financial clarity and support business operations and growth.",
@@ -598,6 +656,21 @@ export const ProjectDetailsData = [
       "Processed payroll transactions",
       "Prepared financial statements and reports",
     ],
+    images: [
+      "/Royal Liquidity/ALL PDF for website-pages-images-85.jpg",
+      "/Royal Liquidity/ALL PDF for website-pages-images-86.jpg",
+      "/Royal Liquidity/ALL PDF for website-pages-images-13.jpg",
+    ],
+    pdf: [
+      {
+       name: "BalanceSheet Royal",
+       link:"/Royal Liquidity/BalanceSheet - royal.pdf"
+      },
+      {
+       name: "ProfitandLoss Royal",
+       link:"/Royal Liquidity/ProfitandLoss -royal.pdf"
+      },
+     ],
     description:
       "I did a clean-up project for a liquidity company using QuickBooks Online. Responsibilities included reviewing and reconciling transactions, correcting discrepancies, organizing financial records, and ensuring accuracy in the company’s accounts.",
   
@@ -618,6 +691,31 @@ export const ProjectDetailsData = [
       "Streamlined financial records using Excel for better clarity",
       "Generated accurate reports for improved financial tracking",
     ],
+    images: [
+      "/Solution Lab, LLC/ALL PDF for website-pages-images-69.jpg",
+      "/Solution Lab, LLC/ALL PDF for website-pages-images-87.jpg",
+      "/Solution Lab, LLC/ALL PDF for website-pages-images-30.jpg",
+      "/Solution Lab, LLC/ALL PDF for website-pages-images-31.jpg",
+      "/Solution Lab, LLC/ALL PDF for website-pages-images-32.jpg",
+    ],
+    pdf: [
+      {
+       name: "BalanceSheet- Solution Lab, LLC 2023",
+       link:"/Solution Lab, LLC/BalanceSheet- Solution Lab, LLC 2023.pdf"
+      },
+      {
+       name: "BalanceSheet- Solution Lab, LLC",
+       link:"/Solution Lab, LLC/BalanceSheet- Solution Lab, LLC.pdf"
+      },
+      {
+       name: "ProfitandLoss -Solution Lab, LLC 23,24",
+       link:"/Solution Lab, LLC/ProfitandLoss -Solution Lab, LLC 23,24.pdf"
+      },
+      {
+       name: "ProfitandLoss - Solution Lab, LLC",
+       link:"/Solution Lab, LLC/ProfitandLoss - Solution Lab, LLC.pdf"
+      },
+     ],
     description:
       "I led a clean-up project for Disability Lab using QuickBooks Online and Excel. Tasks included reviewing and correcting financial records, reconciling accounts, organizing transactions, and ensuring accuracy in financial reporting. Delivered improved financial systems and streamlined data for enhanced decision-making and compliance.",
     date: "January 2023",
@@ -636,6 +734,34 @@ export const ProjectDetailsData = [
       "Corrected discrepancies and ensured accurate fee tracking",
       "Generated financial reports for performance analysis",
     ],
+    images: [
+      "/Diamond Painting/ALL PDF for website-pages-images-70.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-71.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-72.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-73.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-15.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-16.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-17.jpg",
+      "/Diamond Painting/ALL PDF for website-pages-images-18.jpg",
+    ],
+    pdf: [
+      {
+       name: "BalanceSheet- Diamond Painting",
+       link:"/Diamond Painting/BalanceSheet (3).pdf"
+      },
+      {
+       name: "BalanceSheet- Diamond Painting",
+       link:"/Diamond Painting/BalanceSheet (4).pdf"
+      },
+      {
+       name: "ProfitandLoss -Diamond Painting ",
+       link:"/Diamond Painting/ProfitandLoss (1).pdf"
+      },
+      {
+       name: "ProfitandLoss - Diamond Painting",
+       link:"/Diamond Painting/ProfitandLoss (2).pdf"
+      },
+     ],
     description:
       "Reconciled and organized financial records for the painting kits business using QuickBooks Online and Shopify. Corrected discrepancies, categorized sales and expenses, and ensured accurate tracking of inventory and fees. Generated up-to-date financial reports for a clear view of the business's financial status.",
     date: "January 2023",
@@ -655,6 +781,20 @@ export const ProjectDetailsData = [
       "Generating updated financial statements and reports",
       "Identifying and resolving discrepancies in historical data",
     ],
+    images: [
+      "/Ark Strategy Advisors, LLC/ALL PDF for website-pages-images-1.jpg",
+      "/Ark Strategy Advisors, LLC/ALL PDF for website-pages-images-2.jpg",
+    ],
+    pdf: [
+      {
+       name: "Ark Strategy Advisors, LLC",
+       link:"/Ark Strategy Advisors, LLC/Ark Strategy Advisors, LLC.pdf"
+      },
+      {
+       name: "ARK stretegy - PNL",
+       link:"/Ark Strategy Advisors, LLC/ARK stretegy - PNL.pdf"
+      },
+     ],
     description:
       "I did clean-up & catch-up using QuickBooks Online to organize and reconcile historical financial records. Responsibilities included correcting errors, categorizing transactions accurately, reconciling accounts, and preparing up-to-date financial statements. Successfully restored the agency's financial records to compliance, providing clear insights for decision-making.",
  
@@ -680,6 +820,23 @@ export const ProjectDetailsData = [
       "/keynoteblock.png",
       "/expense-tracking.png"
     ],
+    images: [
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-55.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-56.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-77.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-6.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-7.jpg",
+    ],
+    pdf: [
+      {
+       name: "ProfitandLoss -Labify",
+       link:"/ProfitandLoss -Labify.pdf"
+      },
+      {
+       name: "BalanceSheet- labify.pdf",
+       link:"/BalanceSheet- labify"
+      },
+     ],
     date: "November 14, 2024"
   },
   {
@@ -699,9 +856,22 @@ export const ProjectDetailsData = [
     ],
     description: "I did clean-up & catch-up using QuickBooks Online to organize and reconcile historical financial records. Responsibilities included correcting errors, categorizing transactions accurately, reconciling accounts, and preparing up-to-date financial statements. Successfully restored the agency's financial records to compliance, providing clear insights for decision-making.",
     images: [
-      "/ark-strategy.png",
-      "/financial-compliance.png"
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-55.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-56.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-77.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-6.jpg",
+      "/PowerHouse Maintenence/ALL PDF for website-pages-images-7.jpg",
     ],
+    pdf: [
+      {
+       name: "ProfitandLoss -Labify",
+       link:"/ProfitandLoss -Labify.pdf"
+      },
+      {
+       name: "BalanceSheet- labify.pdf",
+       link:"/BalanceSheet- labify"
+      },
+     ],
     date: "November 14, 2024"
   },
 
@@ -962,6 +1132,20 @@ export const ProjectDetailsData = [
      ],
     description: "I did the financial records for a salon and spa using QuickBooks Online. Services included recording sales, tracking expenses, reconciling accounts, and preparing financial reports. Ensured accurate bookkeeping to support operational efficiency and informed financial decisions.",
     date: "November 14, 2024"
+  },
+  {
+    id: 30,
+    type:"Certificated",
+    title: "Xero Advisor Certified",
+    images: ["/certificate1.png"],
+    pdf: [
+      {
+       name: "BALANCE SHEET SALON",
+       link:"/Salon/BALANCE SHEET SALON.pdf"
+      }
+     ],
+    date: "September 5, 2024",
+   
   },
 
   
