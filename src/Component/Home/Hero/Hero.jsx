@@ -29,7 +29,7 @@ const Hero = () => {
                 <p className='md:text-base text-sm'>Clean-up & Catch-up, and SME bookkeeping using Quickbooks Online, Xero, and Wave.
                 </p>
                 <div className='flex items-center md:gap-20 gap-5'>
-            <a className="flex gap-1 justify-center items-center mt-2  bg-[#16112F65] border-2 cursor-pointer border-[#149ECA] px-2 py-1 rounded transition hover:border-[#130f2a] hover:bg-[#149ECA] transform hover:scale-110" href='/Juanyet_Shiblu_MERN_Stack_Developer_resume.pdf' download>
+            <a className="flex gap-1 justify-center items-center mt-2  bg-[#16112F65] border-2 cursor-pointer border-[#149ECA] px-2 py-1 rounded transition hover:border-[#130f2a] hover:bg-[#149ECA] transform hover:scale-110" href='/SadiaAkter.pdf' download>
                 Resume <span><FaDownload /></span>
             </a>
             <div className='flex gap-5 mt-2 justify-center items-center'>

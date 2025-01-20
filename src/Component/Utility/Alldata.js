@@ -230,7 +230,21 @@ export const ProjectDetailsData = [
         "Assisted with budgeting and financial planning"
       ],
       description: "Managed the financial records of a consultancy agency, ensuring accuracy and compliance with accounting standards. Utilized tools like QuickBooks Online, Amazon, and A2X to streamline processes such as recording transactions, reconciling accounts, and generating financial reports. Successfully maintained up-to-date books and provided actionable insights to support the agency's financial decision-making.",
-      images: ["/6.png"],
+      images: [
+        "/6.png",
+        "/Ark Strategy Advisors, LLC/ALL PDF for website-pages-images-1.jpg",
+        "/Ark Strategy Advisors, LLC/ALL PDF for website-pages-images-2.jpg",
+      ],
+      pdf: [
+        {
+         name: "Ark Strategy Advisors, LLC",
+         link:"/Ark Strategy Advisors, LLC/Ark Strategy Advisors, LLC.pdf"
+        },
+        {
+         name: "ARK stretegy - PNL",
+         link:"/Ark Strategy Advisors, LLC/ARK stretegy - PNL.pdf"
+        },
+       ],
 
       date: "November 14, 2024"
     },
@@ -240,12 +254,6 @@ export const ProjectDetailsData = [
     type:"Certificated",
     title: "QuickBooks Online Advanced Certificated",
     images: ["/cerrtificate.png"],
-    pdf: [
-      {
-       name: "BALANCE SHEET SALON",
-       link:"/Salon/BALANCE SHEET SALON.pdf"
-      }
-     ],
     date: "September 5, 2024",
    
   },
@@ -817,24 +825,32 @@ export const ProjectDetailsData = [
     ],
     description: "Provided satisfying bookkeeping support for an advertising agency using QuickBooks Online and Amazon integrations. Responsibilities included recording daily transactions, reconciling accounts, and preparing financial statements to ensure accuracy and clarity in financial reporting. Delivered timely insights to help the agency manage budgets effectively and make informed financial decisions.",
     images: [
-      "/keynoteblock.png",
-      "/expense-tracking.png"
-    ],
-    images: [
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-55.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-56.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-77.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-6.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-7.jpg",
+    
+      "/KA Universal Holdings/ALL PDF for website-pages-images-80.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-81.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-PNL.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-PNL2.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-3.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-4.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-38.jpg",
+      "/KA Universal Holdings/ALL PDF for website-pages-images-39.jpg",
     ],
     pdf: [
       {
-       name: "ProfitandLoss -Labify",
-       link:"/ProfitandLoss -Labify.pdf"
+       name: "Bal- KA Universal Holdings 2023",
+       link:"/Bal- KA Universal Holdings 2023.pdf"
       },
       {
-       name: "BalanceSheet- labify.pdf",
-       link:"/BalanceSheet- labify"
+       name: "ProfitandLoss- KA Universal Holdings",
+       link:"/ProfitandLoss- KA Universal Holdings.pdf"
+      },
+      {
+       name: "PNL -KA Universal Holdings 2023",
+       link:"/PNL -KA Universal Holdings 2023.pdf"
+      },
+      {
+       name: "ProfitandLoss- KA Universal Holdings",
+       link:"/ProfitandLoss- KA Universal Holdings.pdf"
       },
      ],
     date: "November 14, 2024"
@@ -856,20 +872,20 @@ export const ProjectDetailsData = [
     ],
     description: "I did clean-up & catch-up using QuickBooks Online to organize and reconcile historical financial records. Responsibilities included correcting errors, categorizing transactions accurately, reconciling accounts, and preparing up-to-date financial statements. Successfully restored the agency's financial records to compliance, providing clear insights for decision-making.",
     images: [
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-55.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-56.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-77.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-6.jpg",
-      "/PowerHouse Maintenence/ALL PDF for website-pages-images-7.jpg",
+  
+      "/Keynoteblock LLC/ALL PDF for website-pages-images-90.jpg",
+      "/Keynoteblock LLC/ALL PDF for website-pages-images-40.jpg",
+      "/Keynoteblock LLC/ALL PDF for website-pages-images-41.jpg",
+      "/Keynoteblock LLC/ALL PDF for website-pages-images-42.jpg",
     ],
     pdf: [
       {
-       name: "ProfitandLoss -Labify",
-       link:"/ProfitandLoss -Labify.pdf"
+       name: "BalanceSheet-Keynoteblock LLC",
+       link:"/Keynoteblock LLC/BalanceSheet-Keynoteblock LLC.pdf"
       },
       {
-       name: "BalanceSheet- labify.pdf",
-       link:"/BalanceSheet- labify"
+       name: "ProfitandLoss-Keynoteblock LLC",
+       link:"/Keynoteblock LLC/ProfitandLoss-Keynoteblock LLC.pdf"
       },
      ],
     date: "November 14, 2024"
@@ -1138,12 +1154,6 @@ export const ProjectDetailsData = [
     type:"Certificated",
     title: "Xero Advisor Certified",
     images: ["/certificate1.png"],
-    pdf: [
-      {
-       name: "BALANCE SHEET SALON",
-       link:"/Salon/BALANCE SHEET SALON.pdf"
-      }
-     ],
     date: "September 5, 2024",
    
   },
