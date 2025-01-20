@@ -19,10 +19,10 @@ const ProjectDetails = ({ sigleProject }) => {
   const { Light } = useContext(ThemContext);
   const [open, setOpen] = useState(false);
 
-  const project = ProjectDetailsData.find((p) => p?.title === sigleProject);
+  const project = ProjectDetailsData.find((p) => p?.industry === sigleProject);
   const relatedProject = ProjectDetailsData.filter(
     (projects) =>
-      projects?.type === project?.type && projects?.title !== project?.title
+      projects?.type === project?.type && projects?.industry !== project?.industry
   );
 
   if (!project) {
@@ -91,7 +91,7 @@ const ProjectDetails = ({ sigleProject }) => {
         <div className="md:flex w-full gap-8">
           {/* Project Details */}
           <div className="md:w-2/3">
-            <h2 className="text-2xl md:text-3xl font-extrabold   mb-4 t">{project?.title}</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold   mb-4 t">{project?.type}</h2>
             {project.description && (
               <h3 className="text-xl font-bold mb-4">Project Details</h3>
             )}
@@ -130,7 +130,7 @@ const ProjectDetails = ({ sigleProject }) => {
               </div>
             )}
 
-            {project.pdf && project.pdf.length > 0 && (
+            {/* {project.pdf && project.pdf.length > 0 && (
               <div className="mt-6">
                 <h4 className="text-lg font-semibold">Related PDFs:</h4>
                 <ul className="list-disc pl-5">
@@ -143,7 +143,7 @@ const ProjectDetails = ({ sigleProject }) => {
                   ))}
                 </ul>
               </div>
-            )}
+            )} */}
 
             {/* Project Images */}
             <div className="grid grid-cols-1  gap-4 mt-6">
@@ -185,10 +185,10 @@ const ProjectDetails = ({ sigleProject }) => {
                       className="w-16 h-16 object-cover rounded-md"
                     />
                     <Link
-                      href={`/${item.title}`}
+                      href={`/${item.industry}`}
                       className="text-sm hover:text-blue-500 font-medium truncate w-[90%]"
                     >
-                      {item.title}
+                      {item.industry}
                     </Link>
                   </li>
                 ))}

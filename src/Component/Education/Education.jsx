@@ -63,7 +63,7 @@ const Education = () => {
                         <p>Institution: Mirpur Girls Ideal Laboratory Institute</p>
                         <p>Location: Mirpur, Dhaka, Bangladesh</p>
                         <p>
-                            Successfully completed the HSC program with a GPA of 5.00. The coursework emphasized science, mathematics, and critical thinking skills.
+                            Successfully completed the HSC program with a GPA of 5.00. 
                         </p>
                     </div>
                     <hr />
