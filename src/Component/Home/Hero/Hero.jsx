@@ -26,7 +26,7 @@ const Hero = () => {
                         />
                     </span>
                 </h2>
-                <p className='md:text-base text-sm'>Clean-up & Catch-up, and SME bookkeeping using Quickbooks Online, Xero, and Wave.
+                <p className='md:text-base text-sm'>I handle bookkeeping for small businesses, keeping their finances organized so they can completely focus on growth and success.
                 </p>
                 <div className='flex items-center md:gap-20 gap-5'>
             <a className="flex gap-1 justify-center items-center mt-2  bg-[#16112F65] border-2 cursor-pointer border-[#149ECA] px-2 py-1 rounded transition hover:border-[#130f2a] hover:bg-[#149ECA] transform hover:scale-110" href='/SadiaAkter_CV.pdf' download>
